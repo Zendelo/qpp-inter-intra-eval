@@ -1,0 +1,12 @@
+title = "Global configurations"
+
+[environment]
+    [environment.paths]
+    # The root directory which will be used as the base path for all the environment paths
+    root_dir = "./"
+    results_dir = "eval_qpp_results"
+    qrel_file = 'robust04_mod.qrels'
+
+[parameters]
+    # predefined logging levels: CRITICAL, ERROR, WARNING, INFO, DEBUG
+    logging_level = 'DEBUG'
